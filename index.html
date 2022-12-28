@@ -1,75 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>LA SCALONETA</title>
-</head>
-<body>
+    <!------------------------------------------------------------------>
 
-    <header>                 
-            <nav>           
-            <ul>
-                <li><a href="./index.html"><img src="./img/logoescaloneta.png"> 
-                <li><a href="./index.html">INICIO</a></li>
-                <li><a href="./pages/Fixture.html">FIXTURE</a></li>
-                <li><a href="./pages/Galeria.html">GALERIA</a></li>
-                <li><a href="./pages/Estadisticas.html">ESTADISTICAS</a></li>
-                <li><a href="./pages/Contacto.html">CONTACTO</a></li>
-            </ul>
-            </nav>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!------------------------------------------------------------------>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>LA SCALONETA</title>
+
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+
+        <!--NAV CON BOOTSTRAP-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-Info">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li><a href="./index.html"><img src="./img/logoescaloneta.png">
+                        <li class="nav-item">
+                            <a href="./index.html">INICIO</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./pages/Fixture.html">FIXTURE</a>
+                        </li>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                CONTENIDO
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./pages/Galeria.html">GALERIA</a></li>
+                                <li><a class="dropdown-item" href="./pages/Estadisticas.html">ESTADISTICAS</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        <li class="nav-item">
+                            <a href="./pages/Contacto.html">CONTACTO</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
+    <!--MAIN-->
     <main>
-        
-        <section  class="hero">
-                <h3>La página del hincha argentino</h3>
-                <h2> SUBITE A LA SCALONETA </h2>
-                <p>Noticias de la actualidad de nuestra querida selección </p>
+        <section class="hero">
+            <h3>La página del hincha argentino</h3>
+            <h2> SUBITE A LA SCALONETA </h2> 
+            <p>Noticias de la actualidad de nuestra querida selección  </p>
         </section>
         <section class="content">
-        <section class="content-1" >
-            <img src="./img/golmessi.webp" alt="Golazo de Messi">
-            <div>
-                <h2>Gol de Messi para el 1 a 0 frente a Australia</h2>
-                <p>Golazo de messi, para abrir el marcador en el segundo tiempo y darle la ventaja al seleccionado de Scaloni. Todo nació en los pies del mismo Leo, quien ejecutó un tiro de esquina que, tras un rebote, llevó el esférico a los pies de Alexis Mac Allister. El jugador del Brighton intentó tocar con Nicolás Otamendi pero este le dejó el balón al rosarino, quedando a tiro de remate.
-                </p>
-            </div>
-            
-        </section >
-        <section class="content-2">
-            <img src="./img/Julian Alvarez.jfif" alt="Gol de Julian Alvarez">
-            <div>
-                <h2>Golazo de la Araña para darle el 2 a 0 a la scaloneta</h2> 
-                <p> El que persevera triunfa, luego de insistir en el ataque y presionar al arquero, Julian Alvarez, pudo robar el balon y darle un grito de gol a los hinchas argentinos. la Araña había presionado constantemente a los australianos en cada salida desde el fondo. Así, casi sin haber tenido chances de riesgo en el primer tiempo, los frutos los vio a los 12 minutos del complemento. Es que en un intento de Australia por salir jugando desde el fondo, salió rápido a presionar al arquero Mat Ryan junto con Rodrigo De Paul. Allí, el arquero se complicó, el delantero de Manchester City recuperó el balón y lo envió al fondo de la red para marcar su segundo tanto en la Copa del Mundo.</p>
-            </div>                 
-        </section>
-        <section class="content-3">
-            <img src="./img/dimaria.png" alt="Dimaria Lesión">
-            <div>
-            <h2>Di Maria, recuperandose de la lesión</h2>
-            <P> Ángel Di María se recupera de su lesión y Argentina espera tenerlo ante Países Bajos. El jugador del Juventus fue el único que no dispuso de un día libre el domingo, el día después de que la Albiceleste venciera al conjunto oceánico por 2-1 y se situara en cuartos donde se enfrentará a Países Bajos. Alejandro Papu Gómez, aquejado de un esguince sufrido ante el combinado australiano, es otro de los contratiempos físicos del plantel de Scaloni.</P>
-            </div> 
-        </section>
-    </section>
-                <article class="article">
-                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/c_YQYb5s_Fc" title="Hinchas en Qatar" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p> Los hinchas argentinos dijeron presente en Qatar</p>
-                </article> 
-                    <div class="copy"> <p>Copyright Scaloneta 2022 </p> </div>
-</main>
 
-    <footer>   
-        <section>
+            <div class="content-1">
+                <img src="./img/obelisco.png" alt="Gente Obelisco">
+                <div>
+                    <h2>Multitudinarios festejos tras la obtención de una nueva copa del Mundo para Argentina </h2>
+                    <p>Argentina se consagró campeón del Mundo 2022. Este domingo el conjunto dirigido por Scaloni le
+                        ganó a Francia tras imponerse por 4 a 2 en los penales. El Obelisco porteño y otros puntos de la
+                        Ciudad de Buenos Aires fueron escenario de la concentración de los hinchas argentinos para la
+                        gran celebración tras la obtención del tercer título mundial de la albiceleste en 36 años.
+                    </p>
+                </div>
+            </div>
+            <div class="content-2">
+                <img src="./img/argentinacampeon.png" alt="Argentina campeon">
+                <div>
+                    <h2>Argentina campeón: la albiceleste vence a Francia en “la mejor final de todos los tiempos" y
+                        lleva por décima vez la Copa del Mundo a Sudamérica</h2>
+                    <p>El sueño del pibe se ha hecho realidad para Lionel Messi y 45 millones de corazones albicelestes:
+                        Argentina es tricampeona del mundo tras vencer por penales a Francia en la final de Qatar
+                        2022.Es la décima Copa del Mundo que va para un equipo de Sudamérica tras las cinco ganadas por
+                        Brasil, las dos de Uruguay y las otras dos que ya coleccionaba Argentina.
+                    </p>
+                </div>
+            </div>
+            <div class="content-3">
+                <img src="./img/argcroacia.png" alt="Argentina croacia">
+                <div>
+                    <h2>Argentina le ganó 3 a 0 a Croacia y pasó a la final del Mundial Qatar 2022</h2>
+                    <p>Messi hizo el primero de penal al, una corrida memorable de la "Araña" para el dos a cero. El
+                        tercero, una joyita de Messi que Álvarez definió. Francia-Marruecos, la otra semi, se jugará
+                        mañana miércoles a las 16.</p>
+                </div>
+            </div>
+            <div class="content-4">
+                <img src="./img/argholanda.png" alt="jugadores argentinos se burlan de holanda">
+                <div>
+                    <h2>Argentina le gano a Holanda en dramáticos penales y la Albiceleste pasa a semifinales</h2>
+                    <p>Fiel a su estilo, la selección argentina sufrió, vivió su semifinal con los Países Bajos a puro
+                        nerviosismo, no pudo cerrar el partido cuando pudo y debió aguantar hasta el último segundo.
+                        Pero finalmente consiguió superar los cuartos de final del Mundial de Qatar, asegurándose jugar
+                        siete partidos pase lo que pase.El seleccionado nacional empató 2-2 en los 90 minutos, pero
+                        Emiliano Martínez salvó dos penales en la tanda para ganar por 4-3; espera Croacia en la
+                        semifinal
+                    </p>
+                </div>
+            </div>
+            <div class="content-5">
+                <img src="./img/argaustralia.png" alt="Messi festeja gol autralia">
+                <div>
+                    <h2>Argentina le ganó 2 a 1 a Australia en un partido sufrido y jugará con Países Bajos en cuartos
+                        de final</h2>
+                    <p>La Scaloneta venció a su par de Oceanía en un partido vibrante por los octavos de final del
+                        Mundial Qatar 2022. Lionel Messi y Julián Álvarez marcaron los goles de la Albiceleste.Los
+                        dirigidos por Lionel Scaloni ya se metieron entre los 8 mejores de la Copa del Mundo.
+                    </p>
+                </div>
+            </div>
+            <div class="content-6">
+                <img src="./img/argpolonia.png" alt="Julian Enzo y Messi festejan">
+                <div>
+                    <h2>Argentina arrolla a Polonia y acaba como primera de grupo</h2>
+                    <p>Argentina se clasificó como primera de grupo tras arrollar este miércoles a una gris Polonia en
+                        el encuentro decisivo de la fase de grupos.
+                        Julián Álvarez y Alexis Mac Allister pusieron los goles del partido, que acabó con 2 tantos a 0
+                        en el marcador pero pudieron ser muchos más.
+                    </p>
+                </div>
+            </div>
+            <div class="content-7">
+                <img src="./img/argmexico.png" alt="Messi festejando su gol">
+                <div>
+                    <h2>Con gran actuación de Messi, Argentina le gana a México y lo deja al borde de la eliminación en
+                        Qatar 2022</h2>
+                    <p>Hay 'Lío' en Qatar 2022, aunque muchos lo dudaran, también hay lío, el mismo que muchos
+                        anticipaban para este Mundial, lo cierto es que las distancias en el futbol internacional siguen
+                        muy marcadas, una élite recelosa que resguarda el prestigio que le ha dado nombre y
+                        prácticamente ha forjado este torneo.
+                        Argentina no estaba en crisis, apareció en el momento justo para vencer a un México valiente
+                        pero inoperante por 2-0 en lo que fue el segundo encuentro de ambos en la magna justa.
+                    </p>
+                </div>
+            </div>
+            <div class="content-8">
+                <img src="./img/argarabia.png" alt="Messi no puede creer lo que pasa en el partido">
+                <div>
+                    <h2>Argentina sufrió una derrota impensada en su debut y se quedó sin margen de error en la Copa del
+                        Mundo</h2>
+                    <p> Por la primera fecha del Grupo C, la Albiceleste cayó 2-1 en su estreno en el Mundial Qatar
+                        2022. Se puso al frente con el gol de Messi, de penal, pero en una ráfaga de cinco minutos al
+                        inicio de la segunda etapa, los tantos de Al-Shehri y Aldawsari le dieron el triunfo a los
+                        árabes. En el primer tiempo, la intervención del VAR le anuló dos goles. El próximo sábado, el
+                        rival será México</p>
+                </div>
+            </div>
+            <div class="content-9">
+                <img src="./img/dimaria.png" alt="Dimaria Lesión">
+                <div>
+                    <h2>Di Maria, recuperandose de la lesión</h2>
+                    <P> Ángel Di María se recupera de su lesión y Argentina espera tenerlo ante Países Bajos. El jugador
+                        del Juventus fue el único que no dispuso de un día libre el domingo, el día después de que la
+                        Albiceleste venciera al conjunto oceánico por 2-1 y se situara en cuartos donde se enfrentará a
+                        Países Bajos. Alejandro Papu Gómez, aquejado de un esguince sufrido ante el combinado
+                        australiano, es otro de los contratiempos físicos del plantel de Scaloni.</P>
+                </div>
+            </div>
+        </section>
+
+        <div class="youtube-wrapper">
+            <div class="video-youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bnhjSYjZbeA?rel=0&autoplay=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <p class="descvid"> Los hinchas argentinos dijeron presente en Qatar</p>
+
+        <div class="copy">
+            <p>Copyright Scaloneta 2022 </p>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="site-footer">
+        <div class="grid-footer contenedor">
             <h3>Seguinos en nuestras redes</h3>
             <div class="redes">
-                    <a href="https://www.facebook.com/alaanc20" target="_blank"><img src="./img/facebook.png" alt="Icono de Facebook">
-                    <a href="https://www.instagram.com/alaanc20" target="_blank"><img src="./img/instagram.png" alt="Icono de Instagram">
-                    <a href="https://www.twitter.com/alaanc20" target="_blank"><img src="./img/gorjeo.png" alt="Icono de Twitter">
+                <a href="https://www.facebook.com/alaanc20" target="_blank"><img src="./img/facebook.png"
+                        alt="Icono de Facebook">
+                    <a href="https://www.instagram.com/alaanc20" target="_blank"><img src="./img/instagram.png"
+                            alt="Icono de Instagram">
+                        <a href="https://www.twitter.com/alaanc20" target="_blank"><img src="./img/gorjeo.png"
+                                alt="Icono de Twitter">
             </div>
-        </section>
-</footer>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
