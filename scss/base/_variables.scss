@@ -9,8 +9,3 @@ $color-argentina:#8ACDEA;
     justify-content: center;
     align-items: center;
 }
-@mixin media($medida:480px){
-    @media (max-width: $medida){
-        @content
-    }
-}
