@@ -1,0 +1,16 @@
+@mixin sizes($width,$height){
+    width: $width;
+    height: $height;
+}
+$color-argentina:#8ACDEA;
+
+%flex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin media($medida:480px){
+    @media (max-width: $medida){
+        @content
+    }
+}
