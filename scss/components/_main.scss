@@ -23,7 +23,7 @@ main {
         animation-direction: initial;
 
         h3 {
-            background-color:$color-argentina;
+            background-color: $color-argentina;
             font-size: 60px;
         }
 
@@ -165,6 +165,23 @@ main {
         }
     }
 
+    .argesta img {
+        @include sizes(100%, 100%);
+    }
+
+    .fixtuh img {
+        @include sizes(100%, 100%);
+    }
+
+    .fixtuh {
+        h1 {
+            font-size: 20px;
+            border: 2px solid white;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
     .youtube-wrapper {
         width: 50%;
         margin: auto;
@@ -195,11 +212,9 @@ main {
 
     .galeria {
         width: 100%;
-        display: grid;
         text-align: center;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        margin-top: 20px;
-        font-size: 50px;
+        margin-top: 10px;
         background-color: $color-argentina;
         color: white;
         margin-bottom: 20px;
@@ -243,6 +258,7 @@ main {
     .grid-item:nth-child(7) {
         grid-column-start: span 2;
     }
+
     .grid-item:nth-child(9) {
         grid-column-start: span 3;
     }

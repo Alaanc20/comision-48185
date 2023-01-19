@@ -155,6 +155,20 @@ main .argesta {
   main .argesta p {
     padding: 20px; }
 
+main .argesta img {
+  width: 100%;
+  height: 100%; }
+
+main .fixtuh img {
+  width: 100%;
+  height: 100%; }
+
+main .fixtuh h1 {
+  font-size: 20px;
+  border: 2px solid white;
+  padding: 10px;
+  text-align: center; }
+
 main .youtube-wrapper {
   width: 50%;
   margin: auto; }
@@ -178,11 +192,9 @@ main .descvid {
 
 main .galeria {
   width: 100%;
-  display: grid;
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin-top: 20px;
-  font-size: 50px;
+  margin-top: 10px;
   background-color: #8ACDEA;
   color: white;
   margin-bottom: 20px; }
@@ -261,7 +273,7 @@ footer {
     width: 50px;
     height: 50px; }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   header nav div div ul {
     flex-direction: column; }
   header nav div div ul li img {
@@ -297,4 +309,246 @@ footer {
     font-size: 20px;
     border: 2px solid white;
     display: inline-block;
-    padding: 20px; } }
+    padding: 20px; }
+  main .argesta img {
+    width: 100%;
+    height: 100%; }
+  main .argesta h1 {
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center; }
+  main .argesta p {
+    margin-bottom: 30px;
+    font-size: 25px; }
+  main .fixtuh img {
+    width: 100%;
+    height: 100%; }
+  main.fixtuh {
+    background-color: #8ACDEA; }
+    main.fixtuh h2 {
+      border: 2px solid white;
+      text-align: center; }
+  main .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center; }
+  main .grid-container {
+    grid-template-columns: auto;
+    grid-auto-rows: auto; }
+  main .grid-container img {
+    width: 100%; }
+  main .grid-item:nth-child(7) {
+    grid-column-start: span 2; }
+  main .grid-item:nth-child(9) {
+    grid-column-start: span 3; } }
+
+@media screen and (max-width: 800px) {
+  header nav div div ul {
+    flex-direction: column; }
+  header nav div div ul li img {
+    font-size: 100%; }
+  main .hero img {
+    width: 100%;
+    height: 100%; }
+  main .content img {
+    width: 100%;
+    flex-direction: column-reverse; }
+  main .content-0 {
+    flex-direction: column-reverse; }
+  main .hero h3 {
+    font-size: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px; }
+  main .hero h2 {
+    font-size: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px; }
+  main .hero p {
+    margin-bottom: 30px;
+    font-size: 25px; }
+  main h1 {
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center; }
+  main h2 {
+    font-size: 20px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px; }
+  main .argesta img {
+    width: 100%;
+    height: 100%; }
+  main .argesta h1 {
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center; }
+  main .argesta p {
+    margin-bottom: 30px;
+    font-size: 25px; }
+  main .fixtuh img {
+    width: 100%;
+    height: 100%; }
+  main.fixtuh {
+    background-color: #8ACDEA; }
+    main.fixtuh h2 {
+      border: 2px solid white;
+      text-align: center; }
+  main .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center; }
+  main .grid-container {
+    grid-template-columns: auto;
+    grid-auto-rows: auto; }
+  main .grid-container img {
+    width: 100%; }
+  main .grid-item:nth-child(7) {
+    grid-column-start: span 2; }
+  main .grid-item:nth-child(9) {
+    grid-column-start: span 3; } }
+
+@media screen and (max-width: 600px) {
+  header nav div div ul {
+    flex-direction: column; }
+  header nav div div ul li img {
+    font-size: 100%; }
+  main .hero img {
+    width: 100%;
+    height: 100%; }
+  main .content img {
+    width: 100%;
+    flex-direction: column-reverse; }
+  main .content-0 {
+    flex-direction: column-reverse; }
+  main .hero h3 {
+    font-size: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px; }
+  main .hero h2 {
+    font-size: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px; }
+  main .hero p {
+    margin-bottom: 30px;
+    font-size: 25px; }
+  main h1 {
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center; }
+  main h2 {
+    font-size: 20px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px; }
+  main .argesta img {
+    width: 100%;
+    height: 100%; }
+  main .argesta h1 {
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center; }
+  main .argesta p {
+    margin-bottom: 30px;
+    font-size: 25px; }
+  main .fixtuh img {
+    width: 100%;
+    height: 100%; }
+  main.fixtuh {
+    background-color: #8ACDEA; }
+    main.fixtuh h2 {
+      border: 2px solid white;
+      text-align: center; }
+  main .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center; }
+  main .grid-container {
+    grid-template-columns: auto;
+    grid-auto-rows: auto; }
+  main .grid-container img {
+    width: 100%; }
+  main .grid-item:nth-child(7) {
+    grid-column-start: span 2; }
+  main .grid-item:nth-child(9) {
+    grid-column-start: span 3; } }
+
+@media screen and (max-width: 450px) {
+  header nav div div ul {
+    flex-direction: column; }
+  header nav div div ul li img {
+    font-size: 100%; }
+  main .hero img {
+    width: 100%;
+    height: 100%; }
+  main .content img {
+    width: 100%;
+    flex-direction: column-reverse; }
+  main .content-0 {
+    flex-direction: column-reverse; }
+  main .hero h3 {
+    font-size: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px; }
+  main .hero h2 {
+    font-size: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px; }
+  main .hero p {
+    margin-bottom: 30px;
+    font-size: 25px; }
+  main h1 {
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center; }
+  main h2 {
+    font-size: 20px;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 20px; }
+  main .argesta img {
+    width: 100%;
+    height: 100%; }
+  main .argesta h1 {
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center; }
+  main .argesta p {
+    margin-bottom: 30px;
+    font-size: 25px; }
+  main .fixtuh img {
+    width: 100%;
+    height: 100%; }
+  main.fixtuh {
+    background-color: #8ACDEA; }
+    main.fixtuh h2 {
+      border: 2px solid white;
+      text-align: center; }
+  main .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center; }
+  main .grid-container {
+    grid-template-columns: auto;
+    grid-auto-rows: auto; }
+  main .grid-container img {
+    width: 100%; }
+  main .grid-item:nth-child(7) {
+    grid-column-start: span 2; }
+  main .grid-item:nth-child(9) {
+    grid-column-start: span 3; } }
