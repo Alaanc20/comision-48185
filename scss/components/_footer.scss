@@ -16,6 +16,13 @@ footer {
 
     .site-footer {
         border: 1px solid #e1e1e1;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
 
         .grid-footer {
             display: grid;
